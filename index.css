@@ -1,0 +1,220 @@
+@font-face {
+    font-family: poppinsregular;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+body {
+    background-color: #502f4c;
+    margin: 0;
+    padding:0;
+}
+
+.encabezado {
+    font-family: poppinsregular;
+    font-size: 25px;
+    background-color: black;
+    width: 100vw;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+    
+    
+}
+
+.imagen {
+    display: flex;
+    align-items: center;
+    width: 65px;
+    height:65px;
+    margin-left: 10%;
+}
+.menu {
+    width: 60%;
+}
+.menu-items{
+    display: flex;
+    justify-content: space-around;
+    transform: translateY(15px);
+    transform:translateX(-20px);
+}
+
+.menu-items>li>a {
+    color: #c8b8db;
+    text-decoration: none;
+    list-style: none;
+}
+.menu-items>li>a:hover {
+    color: #70587c;
+    transition: 0.4s;
+    text-decoration: overline;
+    font-size: 23px;
+}
+
+.section1 {
+    width: 90%;
+    height:450px;
+    border-radius: 10px;
+    background-color: #000000;
+    font-family:poppinsregular;
+    color: #c8b8db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-left: 5%;
+    border: 0;
+    -webkit-box-shadow: 0px -1px 5px 9px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px -1px 5px 9px rgba(0,0,0,0.2);
+    box-shadow: 0px -1px 5px 9px rgba(0,0,0,0.2);
+    
+    
+}
+.divsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    border: 4px solid #502f4c;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 2%;
+}
+.somos{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align:center;
+}
+
+.leer-mas {
+    font-family:poppinsregular;
+    font-size: 16px;
+    color: white;
+    background-color: #70587c;
+    border-radius: 13px;
+}
+.leer-mas:hover {
+    color: black;
+    background-color: #c8b8db;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.imagensection {
+    margin-right: 8%;
+}
+#oip {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+h2 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0%;
+   
+}
+
+.foot {
+    background-color: #000000;
+    width: 100vw;
+    height: 80px;
+    font-family:poppinsregular;
+    font-size: 16px;
+    color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.trabajar {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ventajas {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 500px;
+    align-items: center;
+    
+}
+
+.diventajas {
+    width: 25%;
+    height: 80%;
+    background-color: #000000;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px -1px 5px 9px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px -1px 5px 9px rgba(0,0,0,0.2);
+    box-shadow: 0px -1px 5px 9px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.diventajas:hover {
+    transform: scale(1.07);
+    transition: 0.3s;
+    
+}
+
+.porque {
+    color: white;
+    font-size: 50px;
+    font-family: poppinsregular;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px -1px 5px 9px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px -1px 5px 9px rgba(0,0,0,0.2);
+    box-shadow: 0px -1px 5px 9px rgba(0,0,0,0.2);
+   
+}
+
+.img-ventajas {
+    margin-top: 10%;
+    
+}
+ 
+.titulo-ventajas {
+font-family: poppinsregular;
+font-size: 25px;
+color: white;
+text-align: center;
+}
+
+.parrafo-ventajas {
+font-family: poppinsregular;
+font-size: 18px;
+color: #c8b8db;
+width: 90%;
+height: 38%;
+text-align: center;
+}
+
