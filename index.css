@@ -187,6 +187,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    border-bottom: 10px;
 }
 .diventajas:hover {
     transform: scale(1.07);
