@@ -1,9 +1,11 @@
 @font-face {
     font-family: poppinsregular;
     src: url(fonts/Poppins-Regular.ttf);
+    transition: 2s;
 }
 html{
     scroll-behavior: smooth;
+    transition: 2s;
 }
 body {
     background-color: #261A2F;
@@ -63,7 +65,6 @@ body {
 }
 
 .items:hover {
-    transform:scale();
     transition: 0.32s;
 }
 
@@ -79,7 +80,7 @@ body {
     padding: 5px;
     background-color: #9c8bb099;
     border-radius: 12px;
-    transition: 0.32s ease-out;
+    transition: 0.32s ease-in-out;
     transform: scale(0.86);
 
 }
@@ -93,7 +94,7 @@ body {
 
 .section1 {
     width: 90%;
-    height:450px;
+    height:480px;
     border-radius: 10px;
     background-color: #000000;
     font-family:poppinsregular;
@@ -103,7 +104,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-top: 10%;
+    margin-top: 14%;
     margin-left: 5%;
     border: 0;
     -webkit-box-shadow: 0px -1px 5px 9px rgba(0,0,0,0.2);
@@ -113,6 +114,7 @@ body {
     
 }
 .divsection {
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,12 +123,15 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
     color: white;
-    border: 4px solid #502f4c;
-    padding: 5px;
+    border: 7px  solid #261A2F;
+    padding: 12px;
     border-radius: 15px;
     margin-bottom: 2%;
+    background: linear-gradient(270deg, #b527cf, #3bd9d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .somos{
     width: 70%;
@@ -389,7 +394,7 @@ text-align: center;
 
 
 .contactanos{
-    width: 55%;
+    width: 60%;
     height: 100%;
     background-color: #000000;
     -webkit-box-shadow: 0px -1px 5px 9px rgba(0,0,0,0.2);
@@ -409,6 +414,9 @@ text-align: center;
     color: white;
     margin: 0;
     margin-bottom: 13px;
+    background: linear-gradient(270deg, #b527cf, #3bd9d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .inputs {
@@ -447,8 +455,7 @@ text-align: center;
     height: 30px;
     border: 0;
     border-radius: 10px;
-    background-color: #502f4c;
-    color: #502f4c;
+    background-color: #362635da;
     margin-left: 10px;
     margin-bottom: 16px;
     color: white;
@@ -492,6 +499,7 @@ text-align: center;
 .redes-sociales {
     width: 45%;
     margin: 5%;
+    transition-duration: 0.6s;
 }
 .redes-sociales:hover {
     transform: scale(0.9);
@@ -504,7 +512,8 @@ text-align: center;
     opacity: 0.4;
     transition-duration: 0.1s;
 }
- 
+
+
 
 .foot {
     background-color: #000000;
