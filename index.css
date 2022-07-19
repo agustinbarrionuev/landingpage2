@@ -131,3 +131,9 @@ body {
     gap: 50px;
     margin-right: 10px;
 }
+
+.skip-button {
+     background: linear-gradient(270deg, #b527cf, #3bd9d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
