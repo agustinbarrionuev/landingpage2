@@ -130,12 +130,12 @@ body {
     align-content: center;
     justify-content: center;
     gap: 50px;
-    margin-right: 20%;
+    margin-right: 6%;
 }
 
 .skip-button {
      background: linear-gradient(270deg, #b527cf, #3bd9d9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-left: 20px;
+    margin-left: 25px;
 }
