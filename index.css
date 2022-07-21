@@ -139,3 +139,104 @@ body {
     -webkit-text-fill-color: transparent;
     margin-left: 25px;
 }
+
+
+@media (max-width: 520px) {
+    .form-container {
+        height: 70%;
+    }
+
+    .login-title-container{
+        font-size: 50px;
+    } 
+
+    #name, #surname {
+        width: 85%;
+        font-size: 22px;
+    }
+
+    .login-submit-container {
+        width: 80%;
+        height: auto;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        gap:10px;
+        font-size: 10px;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .leer-mas {
+        font-family:poppinsregular;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.727);
+        background-color: #261A2F;
+        border-radius: 10px;
+        transition-duration: 0.7s;
+        text-decoration: none;
+        background: linear-gradient(270deg, #b527cf, #3bd9d9);
+        opacity: 0.7;
+    }
+
+    .skip-button {
+        background: linear-gradient(270deg, #b527cf, #3bd9d9);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       margin-left: 0;
+    
+   }
+}
+
+@media (min-width: 520px) and (max-width: 900px) {
+    .form-container {
+        height: 70%;
+    }
+
+    .login-title-container{
+        font-size: 50px;
+    } 
+
+    #name, #surname {
+        width: 65%;
+        font-size: 22px;
+    }
+
+    .login-submit-container {
+        width: 50%;
+        height: auto;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        gap:10px;
+        font-size: 10px;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .leer-mas {
+        font-family:poppinsregular;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.727);
+        background-color: #261A2F;
+        border-radius: 10px;
+        transition-duration: 0.7s;
+        text-decoration: none;
+        background: linear-gradient(270deg, #b527cf, #3bd9d9);
+        opacity: 0.7;
+    }
+
+    .skip-button {
+        background: linear-gradient(270deg, #b527cf, #3bd9d9);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       margin-left: 0;
+    
+   }
+}
+@media (min-width: 900px) and (max-width:1000px){
+    #name, #surname, #password  {
+        width: 50%;
+        font-size: 22px;
+    }
+}
