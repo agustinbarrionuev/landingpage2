@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SignUp.css">
+    <link rel="shortcut icon" href="images/favicon-96x96.png" type="image/x-icon">
+    <meta name="theme-color" content="#ffffff">
+    <title>Registrarse</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <form class="login-container" action="./inicio.html">
+            <div class="login-title-container">
+                <h1 class="login-title">HighSoft</h1>
+            </div>
+            <div class="login">
+                <label for="name" class="login-label"> Crear Usuario</label>
+                <input type="text" id="name" required>
+                <label for="surname" class="login-label"> Crear Contraseña</label>
+                <input type="text" id="surname" required>
+                <label for="password" class="login-label"> Confirmar Contraseña</label>
+                <input type="text" id="password" required>
+            </div>
+            <div class="login-submit-container">
+                <button onclick="location.href='./index.html';" class="skip-button leer-mas" value="Iniciar Sesión">Tengo Cuenta</button>
+                <input type="submit" value="Continuar" class="submit-button leer-mas">
+                <button onclick="location.href='./inicio.html';" class="skip-button leer-mas" value="Registrarme">Saltar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

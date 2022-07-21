@@ -45,6 +45,20 @@ body {
     margin-left: 10%;
     image-rendering: auto;
 }
+
+.account {
+width: 48px;
+height: 48px;
+}
+
+#account-logo {
+    transition-duration: 0.6s;
+}
+#account-logo:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
 .menu {
     width: 60%;
     height: auto;
@@ -52,43 +66,47 @@ body {
 .menu-items{
     display: flex;
     justify-content: space-around;
-    transform: translateY(15px);
     transform:translateX(-20px);
+    align-items: center;
+    transition: 0.82s;
 }
 
 .menu-items>li>a {
     color: #c8b8db;
     text-decoration: none;
     list-style: none;
-    transition-duration: 0.6s;
+    transition-duration: 0.8s;
     border-radius: 12px;
 }
 
+.items {
+    transition: 0.82s;
+}
 .items:hover {
     transition: 0.32s;
-}
-
-.items:active {
-    background-color: #3d374597;
-    transform: scale(0.76);
-    transition: 0.32s ease-out;
-    border-radius: 12px;
-    }
-
-.menu-items>li>a:hover {
     color: #000000;
     padding: 5px;
     background-color: #9c8bb099;
     border-radius: 12px;
     transition: 0.32s ease-in-out;
     transform: scale(0.86);
+}
+
+.items:active {
+    background-color: #3d374597;
+    transform: scale(0.76);
+    transition: 0.12s ease-out;
+    border-radius: 12px;
+    }
+
+.menu-items>li {
+    transition: 0.82s;  
 
 }
 
-.menu-items>li>a:active {
-    background-color:  #3d374597;
+.menu-items>li:active {
     transition: 0.1s ease-in-out;
-    transition-delay: -0.32s;
+    transform: scale(0.76);
 }
     
 

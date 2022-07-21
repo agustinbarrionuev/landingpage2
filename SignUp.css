@@ -1,0 +1,143 @@
+@font-face {
+    font-family: poppinsregular;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #261A2F;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 75%;
+    background-color: black;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px -1px 11px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px -1px 11px 10px rgba(0,0,0,0.3);
+    box-shadow: 0px -1px 11px 10px rgba(0,0,0,0.3);
+
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    column-gap: 20px;
+}
+
+.login-title-container {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppinsregular;
+    font-size: 60px;
+}
+
+.login-title {
+    font-family: poppinsregular;
+    font-size: 52px;
+    color: white;
+    border: 5px solid #261A2F;
+    border-radius: 12px;
+    padding: 1%;
+    background: linear-gradient(270deg, #b527cf, #3bd9d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+    
+}
+
+.login {
+    width: 90%;
+    height: 35%;
+    gap: 4%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+#name, #surname, #password {
+    width: 35%;
+    height: 100px;
+    background-color: #261A2F;
+    margin-bottom: 2%;
+    border-radius: 14px;
+    border: 0;
+    color: white;
+    font-family: poppinsregular;    
+    font-size: 20px;
+    text-align: center;
+}
+
+   
+
+.login-label {
+    font-family: poppinsregular;
+    font-size: 20px;
+}
+
+.leer-mas {
+    font-family:poppinsregular;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.727);
+    background-color: #261A2F;
+    border-radius: 13px;
+    transition-duration: 0.7s;
+    text-decoration: none;
+    background: linear-gradient(270deg, #b527cf, #3bd9d9);
+    opacity: 0.7;
+}
+.leer-mas:hover {
+    color: black;
+    background-color: #c8b8db;
+    transition: 0.3s;
+    cursor: pointer;
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.leer-mas:active {
+    transform: scale(1.04);
+    transition: 0.1s ease-in-out;
+    background-color:#574462;
+    box-shadow: inset 0px 0px 5px black;
+
+}
+
+.login-submit-container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 50px;
+    margin-right: 10%;
+}
+
+.skip-button {
+     background: linear-gradient(270deg, #b527cf, #3bd9d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 20px
+}
