@@ -80,6 +80,11 @@ height: 48px;
     border-radius: 12px;
 }
 
+.menu-items>li {
+        text-decoration: none;
+        list-style:none
+    }
+
 .items {
     transition: 0.82s;
 }
