@@ -1193,3 +1193,16 @@ box-shadow: -6px 7px 5px 200px rgba(0,0,0,0.56);
         -webkit-text-fill-color: transparent;
     }
 }
+
+@media (min-width: 700px) and (max-width: 880px){
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        width: 80%;
+        margin-right: 0;
+          
+    }
+}
